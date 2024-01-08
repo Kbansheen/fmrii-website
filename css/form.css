@@ -1,0 +1,354 @@
+/* body */
+{
+  background-color: #F7FFE5;
+}
+.title-container
+{
+  background-color: ;
+  padding-top: 0px;
+  margin-top: 0px;
+
+  padding-left: 0px;
+
+}
+.navbar
+{
+  background-color: black;
+}
+
+.request-nav
+{
+  margin-left: 0px;
+  height: 50px;
+  background-color: #F2EFEA;
+}
+
+.middle-container
+{
+  background-color: ;
+  margin-top: 65px;
+  height: 400px;
+  width: 97%;
+ padding-left: 0px;
+ padding-right: 0px;
+ box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.drop-button
+{
+  margin-left:  900px;
+  margin
+}
+
+label
+{
+  display: block;
+  font-weight: bold;
+}
+
+input
+{
+  margin-bottom: 20px;
+}
+
+#inputState
+{
+  margin-bottom: 40px;
+  border: 1px solid #CBBCB1;
+  box-shadow: inset 1px 1px 1px 1px #CBBCB1;
+}
+
+#inlineFormInput
+{
+  border: 1px solid #CBBCB1;
+    box-shadow: inset 1px 1px 1px 1px #CBBCB1;
+}
+
+#inputState:focus
+{
+  border: 2px solid #898B8A;
+}
+
+#inlineFormInput:focus
+{
+  border: 2px solid #898B8A;
+}
+
+.req-type
+{
+  width: 20%;
+}
+
+.add-req
+{
+  padding-left: 15px;
+}
+
+.req-type
+{
+  padding-left: 50px;
+}
+
+.status
+{
+  padding-left: 50px;
+}
+
+nav a:hover
+{
+  color: white !important;
+  background-color: #EF6262;
+}
+
+.up-nav li
+{
+  position: relative;
+}
+
+.up-nav span
+{
+  position: absolute;
+  background-color: black;
+  top: 50px;
+  right: 0px;
+  font-size: 14px;
+  padding: 4px;
+  display: none;
+  color: white;
+border-radius: 5%;
+  white-space: nowrap;
+  box-shadow: 20px;
+}
+
+.up-nav li:hover span
+{
+  display:block;
+}
+
+.second-button
+{
+  margin-left: 5px;
+  background-color: white;
+}
+.btn:hover
+{
+  color: #EF6262 !important;
+  background-color: white;
+}
+
+.down-nav
+{
+position: absolute;
+width: 70%;
+}
+
+.glass
+{
+  margin-left: 300px;
+}
+
+.btn
+{
+height: 28px;
+font-size: 12px;
+text-align: center;
+font-weight: bold;
+color: black;
+background-color: white;
+}
+
+.third-button
+{
+  margin-left: 5px;
+}
+
+.clipboard
+{
+  font-size: 1rem;
+  color: #E57C23;
+}
+
+.sp-button:hover
+{
+  color: #EF6262 !important;
+  background-color: white;
+}
+
+.req-button:hover
+{
+  background-color: black;
+}
+
+.req-button
+{
+  border: 1px solid #898B8A;
+}
+
+.navbar-brand
+{
+display: flex;
+position: absolute;
+}
+
+.navbar-brand img
+{
+  width: 90px;
+  height: 35px;
+}
+
+.submit-button:hover{
+  background: black;
+  color: white;
+}
+
+input.submit-button:hover{
+  background-color: black;
+  color: white;
+  color: #(insert text color)
+}
+
+.home
+{
+  padding-left: 200px;
+}
+
+.nav-link
+{
+  font-weight: lighter;
+  font-family: "Ubuntu";
+  color: grey;
+  font-size: 14.5px;
+}
+
+.item
+{
+  padding-left: 10px;
+}
+
+.form-fill
+{
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.raise
+{
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+.submit-button
+{
+ text-align: center;
+ height: 40px;
+ width: 120px;
+ font-weight: bolder;
+ font-size: 1rem;
+ border: 2px solid #898B8A;
+}
+
+.bottom-nav
+{
+  justify-content: center;
+    background-color: #F2EFEA;
+    height: 50px;
+}
+
+@media (max-width: 420px)
+{
+  #inputState
+  {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #inlineFormInput
+  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+h3
+{
+  padding-left: 20px;
+  margin-left: 20px;
+  text-align: center;
+  justify-content: center;
+  color: blue;
+}
+.no-style
+{
+    text-decoration: none;
+}
+h3:hover
+{
+  color: red;
+}
+.zoho
+{
+   padding-left: 20px;
+   justify-content: center;
+   padding-right: 20px;
+}
+#x-popup
+{
+  margin-left: 430px;
+  margin-top: 120px;
+  border: 3px solid #EF6262;
+  box-shadow: 20px solid grey;
+  background-color: #FDE5EC;
+
+}
+.z-img
+{
+  padding-left: 160px;
+  height: 100px;
+  padding-bottom: 20px;
+
+
+}
+
+.popup
+{
+  position: fixed;
+  width: 500px;
+  background-color: white;
+  margin-top: 200px;
+  margin-left: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  display: none ;
+}
+/*#overlay
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+}*/
+
+.close
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+  color: red;
+  text-decoration: none;
+  line-height: 0;
+  padding: 9px 0 11px;
+  width: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.popup:target
+{
+  display: block;
+}

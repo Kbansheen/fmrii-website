@@ -1,0 +1,84 @@
+.login-form
+{
+
+}
+
+.video-bg
+{
+  z-index: -1;
+  position: absolute;
+
+}
+
+.middle-container
+{
+outline-width: thin;
+outline-style: solid;
+outline-color: green;
+position: relative;
+overflow: hidden;
+
+}
+.email
+{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fortis-image
+{
+  height: 100px;
+}
+.password
+{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+#form3Example4
+{
+  border: 1px solid green;
+  box-shadow: none;
+}
+#form3Example4:focus{
+  border: 2px solid green;
+}
+#inlineFormInput
+{
+  border: 1px solid green;
+  box-shadow: none;
+}
+#inlineFormInput:focus
+{
+    border: 2px solid green;
+}
+
+#form2Example33
+{
+    border: 2px solid green;
+    background-color: green;
+}
+
+.form-check-label
+{
+  padding-left: 10px;
+}
+.btn:hover{
+  background-color: green;
+}
+.fortis
+{
+  height: 50%;
+}
+.high-div
+{
+  padding-top: 20px;
+}
+
+
+p
+{
+  font-size: 0.8rem;
+  color: #B2B8A3;
+}

@@ -1,0 +1,279 @@
+/* body */
+{
+  background-color: #F7FFE5;
+}
+.title-container
+{
+  background-color: ;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+.navbar
+{
+  background-color: black;
+}
+
+nav a:hover
+{
+  color: white !important;
+  background-color: #EF6262;
+}
+
+.up-nav li
+{
+  position: relative;
+}
+
+.up-nav span
+{
+  position: absolute;
+  background-color: black;
+  top: 50px;
+  right: 0px;
+  font-size: 14px;
+  padding: 4px;
+  display: none;
+  color: white;
+  border-radius: 5%;
+  white-space: nowrap;
+  box-shadow: 20px;
+}
+
+.up-nav li:hover span
+{
+  display:block;
+}
+
+.second-button
+{
+  margin-left: 5px;
+  background-color: white;
+}
+.down-nav
+{
+position: absolute;
+width: 70%;
+}
+
+.glass
+{
+  margin-left: 300px;
+}
+
+.third-button
+{
+  margin-left: 5px;
+}
+
+.re
+{
+  font-weight: bold;
+  color: white;
+}
+
+.clipboard
+{
+  font-size: 1rem;
+  color: #E57C23;
+}
+
+.btn
+{
+height: 28px;
+font-size: 12px;
+text-align: center;
+font-weight: bold;
+color: black;
+background-color: white;
+}
+
+.btn:hover
+{
+  color: #EF6262 !important;
+  background-color: white;
+}
+
+.navbar-brand
+{
+display: flex;
+position: absolute;
+}
+
+.navbar-brand img
+{
+  width: 90px;
+  height: 35px;
+}
+
+.home{
+  margin-left: 200px;
+  font-weight: 300px;
+}
+
+.requests
+{
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.nav-link
+{
+  font-weight: lighter;
+  font-family: "Ubuntu";
+  color: grey;
+  font-size: 14.5px;
+}
+
+.item
+{
+  padding-left: 10px;
+}
+
+table
+{
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+table, td, th
+{
+  border: 2px solid #EDE4E0;
+  padding: 0.2rem;
+  border-collapse: collapse;
+}
+
+ td
+{
+  background-color: white;
+}
+
+th
+{
+  background-color: #F2EFEA;
+  text-align: center;
+}
+
+h3
+{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.up-button, .del-button
+{
+background-color: #E57C23;
+color: white;
+border: none;
+margin-left: 10px;
+font-weight: bold;
+border-radius: 2px;
+}
+
+.del-button
+{
+  background-color: #ED2B2A;
+}
+
+.del-button:hover
+{
+  background-color: #F15A59;
+  color: black !important;
+  outline: 1 px solid black;
+}
+
+.up-button:hover{
+  background-color: #ECA869;
+  color: black !important;
+  outline: 1 px solid black;
+}
+
+.zo
+{
+  padding-left: 20px;
+  margin-left: 20px;
+  text-align: center;
+  justify-content: center;
+  color: blue;
+}
+
+.no-style
+{
+    text-decoration: none;
+}
+
+h3:hover
+{
+  color: red;
+}
+
+.zoho
+{
+   padding-left: 20px;
+   justify-content: center;
+   padding-right: 20px;
+}
+
+#x-popup
+{
+  margin-left: 430px;
+  margin-top: 120px;
+  border: 3px solid #EF6262;
+  box-shadow: 20px solid grey;
+  background-color: #FDE5EC;
+}
+
+.z-img
+{
+  padding-left: 160px;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+.popup
+{
+  position: fixed;
+  width: 500px;
+
+
+  background-color: white;
+
+  margin-top: 200px;
+  margin-left: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  display: none ;
+}
+/*#overlay
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+}*/
+
+.close
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+  color: red;
+  text-decoration: none;
+  line-height: 0;
+  padding: 9px 0 11px;
+  width: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.popup:target
+{
+  display: block;
+}
