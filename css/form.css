@@ -1,10 +1,11 @@
 /* body */
+.body
 {
   background-color: #F7FFE5;
 }
 .title-container
 {
-  background-color: ;
+  
   padding-top: 0px;
   margin-top: 0px;
 
@@ -25,7 +26,7 @@
 
 .middle-container
 {
-  background-color: ;
+  
   margin-top: 65px;
   height: 400px;
   width: 97%;
@@ -37,7 +38,7 @@
 .drop-button
 {
   margin-left:  900px;
-  margin
+  
 }
 
 label
@@ -204,7 +205,7 @@ position: absolute;
 input.submit-button:hover{
   background-color: black;
   color: white;
-  color: #(insert text color)
+  color: (insert text color)
 }
 
 .home
